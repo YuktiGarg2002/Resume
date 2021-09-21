@@ -1,0 +1,82 @@
+*{
+ margin:0;
+ padding:0 5px;
+
+}
+header{
+  background-image:url(../background1.png);
+  height: 100vh;
+  background-size:cover;
+  background-position:center;
+}
+ul{
+float:right;
+list-style-type:none;
+margin-top:25px;
+font-family: Lucida Handwriting;
+}
+ul li{
+display:inline-block;
+padding: 40px,40px;
+font-family: Lucida Handwriting;
+}
+ul li a{
+  text-decoration:none;
+  color:#fff;
+  padding: 20px,30px;
+  border: 1px solid #transparent;
+  font-family: Lucida Handwriting;
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.title1{
+  position:absolute;
+  top:25%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.title1 h1{
+color:white;
+font-size:35px;
+font-family:Lucida;
+}
+.title2{
+  position:absolute;
+  top:38%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.title2 h2{
+color:Yellow;
+font-size:50px;
+text-shadow: 2px 2px grey;
+}
+.paragraph
+{
+  position:absolute;
+  top:55%;
+  left:50%;
+
+  transform:translate(-50%,-50%);
+}
+.paragraph h3{
+color:lightyellow;
+font-size:30px;
+}
+.paragraph i{
+color:lightyellow;
+font-size:20px;
+}
+.paragraph p{
+color:lightyellow;
+font-size:20px;
+}
+.photo{
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border: 3px solid white;
+}
